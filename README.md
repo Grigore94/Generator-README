@@ -14,7 +14,7 @@
   ##Description
   ### README Generator it is a CLI app that creates a read me 
 
-  ##Instal
+  ##Install
   Nope
 
   ##Usage
@@ -33,7 +33,6 @@
   ###### [Grigore94 GitHub](https://github.com/)  
   ### Email: grigore.mereacre95@gmail.com
 
-  ##Screenshot img 
-  ![Here img](/Generator-README/src/Screen Shot 2020-06-10 at 10.09.17 PM.png?raw=true)
-  ![Here img](/Generator-README/src/Screen Shot 2020-06-10 at 10.09.28 PM.png?raw=true)
-  ![Here img](/Generator-README/src/Screen Shot 2020-06-10 at 10.10.07 PM.png?raw=true)
+## Img Screenshot
+![](.src/Screen Shot 2020-06-10 at 10.09.17 PM.png =250x)
+![](.src/Screen Shot 2020-06-10 at 10.09.28 PM.png =250x)
