@@ -57,18 +57,15 @@ var questions = () => {
             name: "licences",
             message: "What licences will go along with this project:",
             choices: [
+                "None",
                 "Apache",
-                "Academic",
-                "GNU",
-                "ISC",
-                "MIT",
-                "Mozilla",
-                "Open"
+                "GPL",
+                "MIT"
             ]
         },
         {
             type: "input",
-            name: "contributing",
+            name: "contribution",
             message: "How should people help contribute to this project?"
         },
         {
