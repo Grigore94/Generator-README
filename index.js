@@ -1,11 +1,11 @@
-// Global Varibles
+// Varibles
 var fs = require("fs");
 
 var inquirer = require("inquirer");
 
 var generateMarkdown = require("./utils/generateMarkdown")
 
-//Questions
+//array of questions for user
 var questions = () => {
     return inquirer.prompt([
         {
@@ -16,7 +16,7 @@ var questions = () => {
                 if (titleInput) {
                   return true;
                 } else {
-                  console.log('Please enter your project title!');
+                  console.log("Please enter your project title!");
                   return false;
                 }
               }
@@ -29,7 +29,7 @@ var questions = () => {
                 if (descriptionInput) {
                   return true;
                 } else {
-                  console.log('Please enter a project description!');
+                  console.log("Please enter a project description!");
                   return false;
                 }
               }
@@ -47,7 +47,7 @@ var questions = () => {
                 if (usageInput) {
                   return true;
                 } else {
-                  console.log('Please enter a project useage!');
+                  console.log("Please enter a project useage!");
                   return false;
                 }
               }
@@ -81,7 +81,7 @@ var questions = () => {
                 if (usernameInput) {
                   return true;
                 } else {
-                  console.log('Please enter a Github username!');
+                  console.log("Please enter a Github username!");
                   return false;
                 }
               }
@@ -94,7 +94,7 @@ var questions = () => {
                 if (emailInput) {
                   return true;
                 } else {
-                  console.log('Please enter a valid email!');
+                  console.log("Please enter a valid email!");
                   return false;
                 }
               }
@@ -102,6 +102,21 @@ var questions = () => {
     ]);
 } 
 
+// function to initialize program
+const init = () => {
+  console.log("create your README");
+questions()
+  .then(data => {
+      fs.writeFile("./read/README.md", generateMarkdown(data), err => {
+        if (err) {
+          console.log("something is wrong!" + err.message);
+        }
+        else {
+          console.log("Your README has been created");
+        }
+      });
+  })
+}
 
 // function call to initialize program
 init();
