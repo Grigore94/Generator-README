@@ -1,4 +1,4 @@
-# project
+# ProjectX
   ![badge](https://img.shields.io/badge/License-None-blue.svg)
 
   ## Table of Contests
@@ -11,22 +11,22 @@
   -[Question](#questions)
 
   ##Description
-  ### it is a fun projec
+  ### README generator
 
   ##Instal
-  no 
+  nope
 
   ##Usage
-  ### to make this world better
+  ### to make the worl better
 
   ##Licence
   None
 
   ##Contribution
-  ### to clone it 
+  ### clone it
 
   ##Test
-  ### no tests needes
+  ### nope
 
   ##Questions
   ###### [Grigore94 GitHub](https://github.com/)  
