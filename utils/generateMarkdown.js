@@ -31,8 +31,8 @@ function generateMarkdown(data) {
   ### ${data.tests}
 
   ##Questions
-  ###### [${ data.username } for GitHub](https://github.com/)  
-  ### ${ data.email } for ✉️ email
+  ###### [${ data.username } GitHub](https://github.com/)  
+  ### Email ${ data.email }
 `;
 }
 
