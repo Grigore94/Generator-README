@@ -34,8 +34,8 @@
   ### Email: grigore.mereacre95@gmail.com
 
 ## Img Screenshot
-![Here is the img](.src/screenshot02.png =250x)
-![Here is the img](.src/screenshot03.png =250x)
+![Here is the img](/src/screenshot02.png =250x)
+![Here is the img](/src/screenshot03.png =250x)
 
 ## Video link
 [Here is the video link](https://drive.google.com/file/d/1tYGEUxj0b-8TtzFRlboUKgQh-ubXIrOq/view)
