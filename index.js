@@ -87,36 +87,38 @@ var questions = () => {
               }
         },
         {
-            type: "input",
-            name: "email",
-            message: "Enter your email please:",
-            validate: emailInput => {
-                if (emailInput) {
-                  return true;
-                } else {
-                  console.log("Please enter a valid email!");
-                  return false;
-                }
+          type: "input",
+          name: "email",
+          message: "Enter your email please:",
+          validate: emailInput => {
+              if (emailInput) {
+                return true;
+              } else {
+                console.log("Please enter a valid email!");
+                return false;
               }
-        }
-    ]);
+            }
+      }
+  ]);
 } 
 
 // function to initialize program
 const init = () => {
-  console.log("create your README");
+console.log("create your README");
 questions()
-  .then(data => {
-      fs.writeFile("./read/README.md", generateMarkdown(data), err => {
-        if (err) {
-          console.log("something is wrong!" + err.message);
-        }
-        else {
-          console.log("Your README has been created");
-        }
-      });
-  })
+.then(data => {
+    fs.writeFile("./read/README.md", generateMarkdown(data), err => {
+      if (err) {
+        console.log("something is wrong!" + err.message);
+      }
+      else {
+        console.log("Your README has been created");
+      }
+    });
+})
 }
 
-// function call to initialize program
+
+// function to initialize program
+
 init();
