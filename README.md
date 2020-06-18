@@ -34,5 +34,8 @@
   ### Email: grigore.mereacre95@gmail.com
 
 ## Img Screenshot
-![](.src/Screen Shot 2020-06-10 at 10.09.17 PM.png =250x)
-![](.src/Screen Shot 2020-06-10 at 10.09.28 PM.png =250x)
+![Here is the img](.src/screenshot02.png =250x)
+![Here is the img](.src/screenshot03.png =250x)
+
+## Video link
+[Here is the video link](https://drive.google.com/file/d/1tYGEUxj0b-8TtzFRlboUKgQh-ubXIrOq/view)
