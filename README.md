@@ -8,34 +8,31 @@
   -[Usage](#usage)
   -[Licences](#licences)
   -[Contribution](#contribution)
-  -[Test](#tests)
   -[Question](#questions)
 
-  ##Description
+  ## Description
   ### README Generator it is a CLI app that creates a read me 
 
-  ##Install
-  Nope
+  ## Install
+  ### Clone this repo and type npm install
 
-  ##Usage
+  ## Usage
   ### To make the world better place
 
-  ##Licence
-  None
+  ## Licence
+  ![badge](https://img.shields.io/badge/License-None-blue.svg)
 
-  ##Contribution
+  ## Contribution
   ### Clone it from this repo and make the code better
 
-  ##Test
-  ### nope
 
-  ##Questions
+  ## Questions
   ###### [Grigore94 GitHub](https://github.com/)  
   ### Email: grigore.mereacre95@gmail.com
 
 ## Img Screenshot
-![Here is the img](/src/screenshot02.png =250x)
-![Here is the img](/src/screenshot03.png =250x)
+![Here is the img](/src/screenshot02.png)
+![Here is the img](/src/screenshot03.png)
 
 ## Video link
 [Here is the video link](https://drive.google.com/file/d/1tYGEUxj0b-8TtzFRlboUKgQh-ubXIrOq/view)
